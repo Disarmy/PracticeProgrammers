@@ -1,9 +1,5 @@
 public class Ddangddaemokgi {
-    public static void main(String[] args) {
-        System.out.println(solution(new int[][]{{1, 2, 3, 5}, {5, 6, 7, 8}, {4, 3, 2, 1}}));
-    }
-
-    public static int solution(int[][] land) {
+    public int solution(int[][] land) {
         int answer = 0;
 
         //이전의 행에서 가장 큰 수를 더함
